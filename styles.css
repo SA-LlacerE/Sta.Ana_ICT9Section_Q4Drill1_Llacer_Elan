@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to bottom right, #d4edda, #a8e6a3);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+h1 {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* kWh label */
+#kWh {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #1b5e20;
+}
+.eco-card {
+    background-color: #1b5e20;
+    color: #e8f5e9;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.eco-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #a5d6a7;
+}
+
+/* Button */
+.eco-btn {
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+}
+
+.eco-btn:hover {
+    background-color: #43a047;
+}
+
+/* Input styling */
+.form-control {
+    border-radius: 10px;
+}
+
+/* Output message */
+#message1 {
+    font-style: italic;
+    font-weight: bold;
+}
+.eco-img {
+    width: 180px;      
+    height: 180px;     
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #a5d6a7;
+
+    display: block;
+    margin: 0 auto 15px; 
+}
